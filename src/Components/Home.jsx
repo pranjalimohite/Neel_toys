@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import Carousel from "./Carousel";
-import car1 from "../assets/Images/IMG_8398.jpg"
-import bus1 from "../assets/Images/IMG_7310.jpg"
-import jeep1 from "../assets/Images/IMG_7344.jpg"
-import plane1 from "../assets/Images/IMG_7372.jpg"
-import D2 from "../assets/Images/IMG_0240.jpg";
-import D19 from "../assets/Images/IMG_0245.jpg"
+import car1 from "../assets/Images/IMG_0226.webp"
+import bus1 from "../assets/Images/IMG_7310.webp"
+import jeep1 from "../assets/Images/IMG_7344.webp"
+import plane1 from "../assets/Images/IMG_7372.webp"
+import D2 from "../assets/Images/IMG_0240.webp";
+import D19 from "../assets/Images/IMG_0245.webp"
 
 
 function Home() {
@@ -25,25 +25,25 @@ function Home() {
           <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-10">
             <Link to="/cars" className="w-full flex justify-center">
               <div className="bg-amber-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center py-6 w-64 sm:w-72 cursor-pointer transform hover:-translate-y-2 hover:scale-105 animate-fadeIn">
-                <img src={car1} alt="Cars" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
+                <img src={car1} alt="Cars" loading="lazy" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#1C1C4D]">Cars</h3>
               </div>
             </Link>
             <Link to="/Buses" className="w-full flex justify-center">
               <div className="bg-amber-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center py-6 w-64 sm:w-72 cursor-pointer transform hover:-translate-y-2 hover:scale-105 animate-fadeIn delay-100">
-                <img src={bus1} alt="Buses and Trucks" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
+                <img src={bus1} alt="Buses and Trucks" loading="lazy" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#1C1C4D]">Buses and Trucks</h3>
               </div>
             </Link>
             <Link to="/Jeep" className="w-full flex justify-center">
               <div className="bg-amber-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center py-6 w-64 sm:w-72 cursor-pointer transform hover:-translate-y-2 hover:scale-105 animate-fadeIn delay-200">
-                <img src={jeep1} alt="Jeeps and Van" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
+                <img src={jeep1} alt="Jeeps and Van"  loading="lazy" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#1C1C4D]">Jeeps and Van</h3>
               </div>
             </Link>
             <Link to="/Plane" className="w-full flex justify-center">
               <div className="bg-amber-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center py-6 w-64 sm:w-72 cursor-pointer transform hover:-translate-y-2 hover:scale-105 animate-fadeIn delay-300">
-                <img src={plane1} alt="Aeroplane" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
+                <img src={plane1} alt="Aeroplane" loading="lazy" className="h-36 w-36 sm:h-44 sm:w-44 mb-4 object-contain rounded-lg transition-transform duration-300 hover:scale-110" />
                 <h3 className="text-base sm:text-lg font-semibold text-[#1C1C4D]">Aeroplane</h3>
               </div>
             </Link>
@@ -62,14 +62,14 @@ function Home() {
 
   <div className="flex flex-col md:flex-row justify-center items-center gap-6 sm:gap-8 max-w-5xl mx-auto">
     <div className="border border-gray-200 shadow-md rounded-lg overflow-hidden p-4 bg-white transition-transform duration-300 hover:scale-105 animate-fadeIn">
-      <img src={D2} alt="Dzire" className="w-full h-48 sm:h-64 object-contain mb-4" />
+      <img src={D2} alt="Dzire" loading="lazy" className="w-full h-48 sm:h-64 object-contain mb-4" />
       <div className="flex items-center gap-2 mt-2">
         <p className="text-xl sm:text-3xl font-medium">Dzire</p>
       </div>
     </div>
 
     <div className="border border-gray-200 shadow-md rounded-lg overflow-hidden p-4 bg-white transition-transform duration-300 hover:scale-105 animate-fadeIn delay-100">
-      <img src={D19} alt="Innova" className="w-full h-48 sm:h-64 object-contain mb-4" />
+      <img src={D19} alt="Innova" loading="lazy" className="w-full h-48 sm:h-64 object-contain mb-4" />
       <div className="flex items-center gap-2 mt-2">
         <p className="text-xl sm:text-3xl font-medium">Innovaa</p>
       </div>

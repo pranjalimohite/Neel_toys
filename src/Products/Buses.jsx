@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import Bus1 from "../assets/Images/IMG_7325.jpg";
-import Bus2 from "../assets/Images/IMG_7326.jpg";
-import Bus3 from "../assets/Images/IMG_7330.jpg"
-import goodCarrier from "../assets/Images/IMG_7310.jpg"
-import garbageTruck from "../assets/Images/IMG_7279.jpg"
-import oliTanker from "../assets/Images/IMG_7286.jpg"
-import waterTanker from "../assets/Images/IMG_7298.jpg"
-import milkVan from "../assets/Images/IMG_7280.jpg"
-import dumper from "../assets/Images/IMG_7303.jpg"
-import bg1 from "../assets/Images/bg1.jpg"
+import Bus1 from "../assets/Images/IMG_7325.webp";
+import Bus2 from "../assets/Images/IMG_7326.webp";
+import Bus3 from "../assets/Images/IMG_7330.webp"
+import goodCarrier from "../assets/Images/IMG_7310.webp"
+import garbageTruck from "../assets/Images/IMG_7279.webp"
+import oliTanker from "../assets/Images/IMG_7286.webp"
+import waterTanker from "../assets/Images/IMG_7298.webp"
+import milkVan from "../assets/Images/IMG_7280.webp"
+import dumper from "../assets/Images/IMG_7303.webp"
+import bg1 from "../assets/Images/bg1.webp"
 
 const buses = [
   {
@@ -24,7 +24,7 @@ const buses = [
   {
     name: "GOODS CARRIER",
     size: "Length - 15cm, Height - 8cm, Width - 6cm",
-    colors: ["Blue", "brown", "blue", "white", "orange"],
+    colors: ["brown", "blue", "white", "orange"],
     images: [
       goodCarrier
     ],
@@ -102,7 +102,7 @@ function Buses() {
               style={{ animationDelay: `${idx * 0.08}s` }}
             >
               {/* Always show the first image on the card */}
-              <img src={bus.images[0]} alt={bus.name} className="w-36 h-36 sm:w-45 sm:h-45 object-contain mb-4 rounded-lg transition-transform duration-300 hover:scale-105" />
+              <img src={bus.images[0]} alt={bus.name} loading="lazy" className="w-36 h-36 sm:w-45 sm:h-45 object-contain mb-4 rounded-lg transition-transform duration-300 hover:scale-105" />
               <h3 className="text-lg sm:text-xl font-semibold mb-2 text-[#1C1C4D]">{bus.name}</h3>
               <button
                 className="mt-auto bg-[#4f3a6b] text-white px-4 py-2 rounded hover:bg-[#5a3f7c] transition-transform duration-300 hover:scale-105"
@@ -130,6 +130,7 @@ function Buses() {
                 <img
                   src={mainImage}
                   alt={selectedBus.name}
+                  loading="lazy"
                   className="w-64 h-64 sm:w-[30rem] sm:h-[30rem] object-contain rounded-lg mb-4"
                 />
                 <div className="flex gap-2 flex-wrap justify-center">
@@ -138,6 +139,7 @@ function Buses() {
                       key={idx}
                       src={img}
                       alt={`Thumbnail ${idx + 1}`}
+                      loading="lazy"
                       className={`w-10 h-10 sm:w-20 sm:h-20 object-contain rounded cursor-pointer border ${mainImage === img ? "border-[#4f3a6b] border-2" : "border-gray-300"}`}
                       onClick={() => setMainImage(img)}
                     />

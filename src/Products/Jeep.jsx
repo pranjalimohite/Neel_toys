@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import Van1 from "../assets/Images/IMG_7314.jpg";
-import Van2 from "../assets/Images/IMG_7316.jpg";
-import Van3 from "../assets/Images/IMG_7320.jpg";
-import Thar1 from "../assets/Images/IMG_7331.jpg";
-import Thar2 from "../assets/Images/IMG_7339.jpg";
-import Thar3 from "../assets/Images/IMG_7343.jpg";
-import Thar4 from "../assets/Images/IMG_7344.jpg";
-import Van4 from "../assets/Images/IMG_7321.jpg";
-import bg1 from "../assets/Images/bg1.jpg"
+import Van1 from "../assets/Images/IMG_7314.webp";
+import Van2 from "../assets/Images/IMG_7316.webp";
+import Van3 from "../assets/Images/IMG_7320.webp";
+import Thar1 from "../assets/Images/IMG_7331.webp";
+import Thar2 from "../assets/Images/IMG_7339.webp";
+import Thar3 from "../assets/Images/IMG_7343.webp";
+import Thar4 from "../assets/Images/IMG_7344.webp";
+import Van4 from "../assets/Images/IMG_7321.webp";
+import bg1 from "../assets/Images/bg1.webp"
 const jeeps = [
   {
     name: "Thaar",
@@ -69,6 +69,7 @@ function Jeep() {
               <img
                 src={jeep.images[0]}
                 alt={jeep.name}
+                loading="lazy"
                 className="w-32 h-32 sm:w-60 sm:h-60 object-contain mb-2 sm:mb-4 rounded-lg transition-transform duration-300 hover:scale-105"
               />
               <h3 className="text-xl sm:text-3xl font-semibold mb-2 sm:mb-4 text-[#1C1C4D]">
@@ -100,6 +101,7 @@ function Jeep() {
                 <img
                   src={mainImage}
                   alt={selectedJeep.name}
+                  loading="lazy"
                   className="w-52 h-52 sm:w-96 sm:h-96 object-contain rounded-lg mb-4"
                 />
                 <div className="flex gap-2 flex-wrap justify-center">
@@ -108,6 +110,7 @@ function Jeep() {
                       key={idx}
                       src={img}
                       alt={`Thumbnail ${idx + 1}`}
+                      loading="lazy"
                       className={`w-10 h-10 sm:w-20 sm:h-20 object-contain rounded cursor-pointer border ${mainImage === img ? "border-[#4f3a6b] border-2" : "border-gray-300"}`}
                       onClick={() => setMainImage(img)}
                     />

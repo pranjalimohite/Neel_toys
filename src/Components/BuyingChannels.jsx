@@ -1,5 +1,5 @@
 import React from 'react';
-import bg3 from "../assets/Images/bg3.jpg"
+import bg3 from "../assets/Images/bg3.webp"
 
 function BuyingChannels() {
   return (

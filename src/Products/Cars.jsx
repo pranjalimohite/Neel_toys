@@ -1,22 +1,22 @@
 import React, { useState } from "react";
-import dzireCar from "../assets/Images/IMG_0240.jpg";
-import OlaD from "../assets/Images/OlaD.jpeg";
-import AmbI from "../assets/Images/AmbI.jpeg";
-import OlaI from "../assets/Images/OlaI.jpeg";
-import PoliceI from "../assets/Images/PoliceI.jpeg";
-import TaxiD from "../assets/Images/TaxiD.jpeg";
-import TaxiI from "../assets/Images/TaxiI.jpeg";
-import UberD from "../assets/Images/UberD.jpeg";
-import UberI from "../assets/Images/UberI.jpeg";
-import D1 from "../assets/Images/IMG_0226.jpg";
-import D2 from "../assets/Images/IMG_0240.jpg";
-import D3 from "../assets/Images/IMG_0248.jpg";
-import I1 from "../assets/Images/IMG_0252.jpg";
-import IT1 from "../assets/Images/IMG_0269.jpg";
-import DT1 from "../assets/Images/IMG_0271.jpg";
-import D19 from "../assets/Images/IMG_0245.jpg"
-import D20 from "../assets/Images/IMG_8428.jpg"
-import bg1 from "../assets/Images/bg1.jpg"
+import dzireCar from "../assets/Images/IMG_0240.webp";
+import OlaD from "../assets/Images/OlaD.webp";
+import AmbI from "../assets/Images/AmbI.webp";
+import OlaI from "../assets/Images/OlaI.webp";
+import PoliceI from "../assets/Images/PoliceI.webp";
+import TaxiD from "../assets/Images/TaxiD.webp";
+import TaxiI from "../assets/Images/TaxiI.webp";
+import UberD from "../assets/Images/UberD.webp";
+import UberI from "../assets/Images/UberI.webp";
+import D1 from "../assets/Images/IMG_0226.webp";
+import D2 from "../assets/Images/IMG_0240.webp";
+import D3 from "../assets/Images/IMG_0248.webp";
+import I1 from "../assets/Images/IMG_0252.webp";
+import IT1 from "../assets/Images/IMG_0269.webp";
+import DT1 from "../assets/Images/IMG_0271.webp";
+import D19 from "../assets/Images/IMG_0245.webp"
+import D20 from "../assets/Images/IMG_8428.webp"
+import bg1 from "../assets/Images/bg1.webp"
 
 
 const cars = [
@@ -77,10 +77,10 @@ const cars = [
   {
     name: "DZIRE CAR",
     size: "Length - 14.8cm, Height - 7cm, Width - 7cm",
-    colors: ["Red", "brown", "silver", "golden", "white", "green"],
+    colors: ["Red", "brown", "silver", "#E6BE8A", "white", "green"],
     images: [
       dzireCar,
-      D1, D2, D3
+      D1
     ],
   },
   {
@@ -152,7 +152,7 @@ function Cars() {
               style={{ animationDelay: `${idx * 0.08}s` }}
             >
               {/* Always show the first image on the card */}
-              <img src={car.images[0]} alt={car.name} className="w-40 h-40 sm:w-50 sm:h-50 object-contain mb-4 rounded-lg transition-transform duration-300 hover:scale-105" />
+              <img src={car.images[0]} alt={car.name} loading="lazy" className="w-40 h-40 sm:w-50 sm:h-50 object-contain mb-4 rounded-lg transition-transform duration-300 hover:scale-105" />
               <h3 className="text-lg sm:text-xl font-semibold mb-2 text-[#1C1C4D]">{car.name}</h3>
               <button
                 className="mt-auto bg-[#4f3a6b] text-white px-4 py-2 rounded hover:bg-[#5a3f7c] transition-transform duration-300 hover:scale-105"
@@ -180,6 +180,7 @@ function Cars() {
                 <img
                   src={mainImage}
                   alt={selectedCar.name}
+                  loading="lazy"
                   className="w-64 h-64 sm:w-[28rem] sm:h-[28rem] object-contain rounded-lg mb-4"
                 />
                 <div className="flex gap-2 flex-wrap justify-center">
@@ -188,6 +189,7 @@ function Cars() {
                       key={idx}
                       src={img}
                       alt={`Thumbnail ${idx + 1}`}
+                      loading="lazy"
                       className={`w-14 h-14 sm:w-20 sm:h-20 object-contain rounded cursor-pointer border ${mainImage === img ? "border-[#4f3a6b] border-2" : "border-gray-300"}`}
                       onClick={() => setMainImage(img)}
                     />

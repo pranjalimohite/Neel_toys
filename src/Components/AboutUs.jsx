@@ -1,8 +1,8 @@
 import React from 'react';
-import aboutus from "../assets/Images/about_us.jpg"
-import Display from "../assets/Images/DisplayP.jpeg"
-import trade from "../assets/Images/TradeMark.png"
-import bg3 from "../assets/Images/bg3.jpg"
+import aboutus from "../assets/Images/about_us.webp"
+import Display from "../assets/Images/DisplayP.webp"
+import trade from "../assets/Images/TradeMark.webp"
+import bg3 from "../assets/Images/bg3.webp"
 
 function AboutUs() {
   return (
@@ -11,7 +11,7 @@ function AboutUs() {
 
       <>
       <div>
-        <img className="h-[400px] w-full" src={aboutus} alt="AboutUs" />
+        <img className="h-[400px] w-full" src={aboutus} alt="AboutUs" loading="lazy"/>
       </div>
       <section className="py-12 px-2 sm:px-6 lg:px-8 bg-amber-50 animate-fadeIn">
         <div className="max-w-6xl mx-auto">
@@ -59,6 +59,7 @@ function AboutUs() {
         <img
           src={Display}
           alt="Display Photo"
+          loading="lazy"
           className="w-40 h-40 sm:w-56 sm:h-56 object-cover mx-auto rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
         />
       </div>
@@ -87,6 +88,7 @@ function AboutUs() {
           <img
             src={trade}
             alt="Trademark"
+            loading="lazy"
             className="h-24 w-40 sm:h-40 sm:w-64 object-contain"
           />
           

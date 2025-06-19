@@ -38,11 +38,11 @@ function ContactUs() {
               <div className="text-xs sm:text-sm space-y-4">
                 <div className="flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 12H8m8 0a4 4 0 10-8 0 4 4 0 008 0z" /></svg>
-                  <span>neeltoy67@gmail.com</span>
+                  <span className='text-2xl'>neeltoy67@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 10h1l2 2m13-2h1l-2 2m0 4h1l-2 2m-13-2h1l2 2M8 21h8m-8-2h8m-8-2h8m-8-2h8m-8-2h8m-8-2h8m-8-2h8m-8-2h8" /></svg>
-                  <span>Support: (+91) 9393090909</span>
+                  <span className='text-2xl'>Support: (+91) 9393090909</span>
                 </div>
               </div>
             </div>

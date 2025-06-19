@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import bike1 from "../assets/Images/IMG_7354.jpg"
-import bike2 from "../assets/Images/IMG_7351.jpg"
-import bike3 from "../assets/Images/IMG_7352.jpg"
-import bg1 from "../assets/Images/bg1.jpg"
+
+import bike2 from "../assets/Images/IMG_7351.webp"
+import bike3 from "../assets/Images/IMG_7352.webp"
+import bike1 from "../assets/Images/IMG_7354.webp"
+import bg1 from "../assets/Images/bg1.webp"
 
 const bikes = [
   {
@@ -52,6 +53,7 @@ function Bikes() {
               <img
                 src={bike.images[0]}
                 alt={bike.name}
+                loading="lazy"
                 className="w-36 h-36 sm:w-60 sm:h-60 object-contain mb-4 sm:mb-6 rounded-lg transition-transform duration-300 hover:scale-105"
               />
               <h3 className="text-xl sm:text-4xl font-semibold mb-2 sm:mb-4 text-[#1C1C4D]">{bike.name}</h3>
@@ -81,6 +83,7 @@ function Bikes() {
                 <img
                   src={mainImage}
                   alt={selectedBike.name}
+                  loading="lazy"
                   className="w-52 h-52 sm:w-96 sm:h-96 object-contain rounded-lg mb-4"
                 />
                 <div className="flex gap-2 flex-wrap justify-center">
@@ -89,6 +92,7 @@ function Bikes() {
                       key={idx}
                       src={img}
                       alt={`Thumbnail ${idx + 1}`}
+                      loading="lazy"
                       className={`w-10 h-10 sm:w-20 sm:h-20 object-contain rounded cursor-pointer border ${mainImage === img ? "border-[#4f3a6b] border-2" : "border-gray-300"}`}
                       onClick={() => setMainImage(img)}
                     />

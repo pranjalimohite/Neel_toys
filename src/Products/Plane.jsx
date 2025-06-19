@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import JETR1 from "../assets/Images/IMG_7356.jpg";
-import JETR2 from "../assets/Images/IMG_7358.jpg";
-import JETD1 from "../assets/Images/IMG_7360.jpg";
-import JETD2 from "../assets/Images/IMG_7362.jpg";
-import F161 from "../assets/Images/IMG_7366.jpg";
-import F162 from "../assets/Images/IMG_7367.jpg";
-import F163 from "../assets/Images/IMG_7371.jpg";
-import plane2 from "../assets/Images/IMG_7355.jpg";
-import plane3 from "../assets/Images/IMG_7364.jpg";
-import plane4 from "../assets/Images/IMG_7370.jpg";
-import bg1 from "../assets/Images/bg1.jpg"
+import JETR1 from "../assets/Images/IMG_7356.webp";
+import JETR2 from "../assets/Images/IMG_7358.webp";
+import JETD1 from "../assets/Images/IMG_7360.webp";
+import JETD2 from "../assets/Images/IMG_7362.webp";
+import F161 from "../assets/Images/IMG_7366.webp";
+import F162 from "../assets/Images/IMG_7367.webp";
+import F163 from "../assets/Images/IMG_7371.webp";
+import plane2 from "../assets/Images/IMG_7355.webp";
+import plane3 from "../assets/Images/IMG_7364.webp";
+import plane4 from "../assets/Images/IMG_7370.webp";
+import bg1 from "../assets/Images/bg1.webp"
 
 const planes = [
   {
@@ -80,6 +80,7 @@ function Plane() {
                 src={plane.images[0]}
                 alt={plane.name}
                 className="w-32 h-32 sm:w-60 sm:h-60 object-contain mb-4 sm:mb-6 rounded-lg transition-transform duration-300 hover:scale-105"
+                loading="lazy"
               />
               <h3 className="text-lg sm:text-2xl font-semibold mb-2 sm:mb-4 text-[#1C1C4D]">
                 {plane.name}
@@ -110,6 +111,7 @@ function Plane() {
                 <img
                   src={mainImage}
                   alt={selectedPlane.name}
+                  loading="lazy"
                   className="w-52 h-52 sm:w-96 sm:h-96 object-contain rounded-lg mb-4"
                 />
                 <div className="flex gap-2 flex-wrap justify-center">
@@ -117,6 +119,7 @@ function Plane() {
                     <img
                       key={idx}
                       src={img}
+                      loading="lazy"
                       alt={`Thumbnail ${idx + 1}`}
                       className={`w-10 h-10 sm:w-20 sm:h-20 object-contain rounded cursor-pointer border ${mainImage === img ? "border-[#4f3a6b] border-2" : "border-gray-300"}`}
                       onClick={() => setMainImage(img)}

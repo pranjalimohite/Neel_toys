@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import slide1 from "../assets/Images/n.jpeg"
-import slide2 from "../assets/Images/front1.jpeg"
+import slide1 from "../assets/Images/abc.webp"
+import slide2 from "../assets/Images/front1.webp"
 import slide3 from "../assets/Images/video1.mp4"
 
 const slides = [
@@ -29,6 +29,7 @@ function Carousel() {
           <img
             key={index}
             src={slide.src}
+            loading="lazy"
             alt={`Slide ${index + 1}`}
             style={{
               ...styles.image,

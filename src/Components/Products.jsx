@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import D2 from "../assets/Images/IMG_0240.jpg";
-import bus1 from "../assets/Images/IMG_7310.jpg"
-import bike1 from "../assets/Images/IMG_7354.jpg"
-import jeep1 from "../assets/Images/IMG_7344.jpg"
-import bg1 from "../assets/Images/bg1.jpg"
+import D2 from "../assets/Images/IMG_0240.webp";
+import bus1 from "../assets/Images/IMG_7310.webp"
+import bike1 from "../assets/Images/IMG_7354.webp"
+import jeep1 from "../assets/Images/IMG_7344.webp"
+import bg1 from "../assets/Images/bg1.webp"
 
-import plane1 from "../assets/Images/IMG_7372.jpg"
+import plane1 from "../assets/Images/IMG_7372.webp"
 
 const productCards = [
   {
@@ -67,7 +67,9 @@ const Products = () => {
             <img
               src={card.img}
               alt={card.alt}
+              
               className="h-28 w-28 sm:h-40 sm:w-40 object-contain mb-4 sm:mb-0 sm:mr-6 rounded-lg shadow transition-transform duration-300 hover:scale-105"
+              loading="lazy"
             />
 
             {/* Title */}

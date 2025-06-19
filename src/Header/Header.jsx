@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from "../assets/Images/Logo.webp"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo/Brand Name and GST */}
           <div className="flex flex-col items-start">
-            <img src="Logo.png" alt="NeelToysLogo" className="h-15 w-auto" />
+            <img src={logo} alt="NeelToysLogo" className="h-15 w-auto" loading="lazy" />
             <span className="text-lg text-gray-800 mt-1">GST No: 26AMIPT0097J1ZL</span>
           </div>
 

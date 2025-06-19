@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10 px-4 sm:px-6 lg:px-8">
