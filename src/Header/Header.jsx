@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo/Brand Name */}
           <div className="text-2xl font-bold text-gray-800 flex flex-col items-start">
-  <img src="Logo.png" alt="NeelToysLogo" className="h-15 w-auto" />
+  <img src="/Logo.png" alt="NeelToysLogo" className="h-15 w-auto" />
   
 </div>
          

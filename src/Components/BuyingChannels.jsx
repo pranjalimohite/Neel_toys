@@ -5,7 +5,7 @@ function BuyingChannels() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('bg3.jpg')" }}
+        style={{ backgroundImage: "url('/bg3.jpg')" }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">
           Buying Channels

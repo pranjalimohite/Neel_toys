@@ -13,7 +13,7 @@ const planes = [
     size: "Length - 19cm, Height - 4cm, Width - 17cm",
     colors: ["Red", "Blue", "ivory", "white", "grey"],
     images: [
-      "IMG_7355.jpg",
+      "/IMG_7355.jpg",
       JETR1,
       JETR2,
     ],
@@ -23,7 +23,7 @@ const planes = [
     size: "Length - 19cm, Height - 4cm, Width - 17cm",
     colors: ["Blue", "orange", "yellow", "#C11C84"],
     images: [
-      "IMG_7364.jpg",
+      "/IMG_7364.jpg",
       JETD2,
       JETD1
     ],
@@ -33,7 +33,7 @@ const planes = [
     size: "Length -  21cm, Height - 3cm, Width - 18cm",
     colors: ["Green", "white", "ivory", "grey", "black"],
     images: [
-      "IMG_7370.jpg",
+      "/IMG_7370.jpg",
       F161,
       F162,
       F163,
@@ -59,7 +59,7 @@ function Plane() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('bg1.jpg')" }}
+        style={{ backgroundImage: "url('/bg1.jpg')" }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">AEROPLANE</h1>
       </div>

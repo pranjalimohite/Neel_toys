@@ -3,35 +3,35 @@ import { NavLink } from "react-router-dom";
 
 const productCards = [
   {
-    img: "IMG_0240.jpg",
+    img: "/IMG_0240.jpg",
     alt: "Cars & SUVs | MUVs",
     title: "Cars & SUVs | MUVs",
     link: "/cars",
     delay: "0s"
   },
   {
-    img: "IMG_7324.jpg",
+    img: "/IMG_7324.jpg",
     alt: "Trucks and Buses",
     title: "Trucks and Buses",
     link: "/Buses",
     delay: "0.1s"
   },
   {
-    img: "IMG_7354.jpg",
+    img: "/IMG_7354.jpg",
     alt: "Bikes",
     title: "Bikes",
     link: "/Bikes",
     delay: "0.2s"
   },
   {
-    img: "IMG_7372.jpg",
+    img: "/IMG_7372.jpg",
     alt: "Aeroplanes",
     title: "Aeroplanes",
     link: "/Plane",
     delay: "0.3s"
   },
   {
-    img: "IMG_7321.jpg",
+    img: "/IMG_7321.jpg",
     alt: "Jeeps & Van",
     title: "Jeeps & Van",
     link: "/Jeep",

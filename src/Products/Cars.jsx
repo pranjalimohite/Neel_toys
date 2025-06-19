@@ -21,7 +21,7 @@ const cars = [
     size: "Length - 14.5cm, Height - 7cm, Width - 6.5cm",
     colors: ["Red", "golden", "silver", "black", "white", "yellow"],
     images: [
-      "IMG_0245.jpg",
+      "/IMG_0245.jpg",
       I1
     ],
   },
@@ -40,7 +40,7 @@ const cars = [
     colors: ["white"],
     images: [
       PoliceI,
-      "PoliceI_side.jpg"
+      
     ],
   },
   {
@@ -49,7 +49,7 @@ const cars = [
     colors: ["white"],
     images: [
       AmbI,
-      "AmbI_side.jpg"
+      
     ],
   },
   {
@@ -58,7 +58,7 @@ const cars = [
     colors: ["White"],
     images: [
       UberI,
-      "UberI_side.jpg"
+      
     ],
   },
   {
@@ -67,7 +67,7 @@ const cars = [
     colors: ["white"],
     images: [
       OlaI,
-      "OlaI_side.jpg"
+      
     ],
   },
   {
@@ -94,7 +94,7 @@ const cars = [
     colors: ["white"],
     images: [
       UberD,
-      "UberD_side.jpg"
+      
     ],
   },
   {
@@ -103,7 +103,7 @@ const cars = [
     colors: ["white"],
     images: [
       OlaD,
-      "OlaD_side.jpg"
+      
     ],
   },
   {
@@ -111,8 +111,8 @@ const cars = [
     size: "6 ",
     colors: ["silver", "golden", "white", "grey", "ivory"],
     images: [
-      "IMG_8428.jpg",
-      "IMG_8428_side.jpg"
+      "/IMG_8428.jpg",
+      
     ],
   }
 ];
@@ -135,7 +135,7 @@ function Cars() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('bg1.jpg')" }}
+        style={{ backgroundImage: "url('/bg1.jpg')" }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">CARS</h1>
       </div>

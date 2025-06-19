@@ -8,7 +8,7 @@ const buses = [
     size: "Length - 13cm, Height - 5.5cm, Width - 3.5cm",
     colors: ["Red"],
     images: [
-      "IMG_7330.jpg",
+      "/IMG_7330.jpg",
       Bus1,
       Bus2
     ],
@@ -18,7 +18,7 @@ const buses = [
     size: "Length - 15cm, Height - 8cm, Width - 6cm",
     colors: ["Blue", "brown", "blue", "white", "orange"],
     images: [
-      "IMG_7310.jpg"
+      "/IMG_7310.jpg"
     ],
   },
   {
@@ -26,7 +26,7 @@ const buses = [
     size: "Length - 15cm, Height - 7cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "IMG_7279.jpg"
+      "/IMG_7279.jpg"
     ],
   },
   {
@@ -34,7 +34,7 @@ const buses = [
     size: "Length - 16cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "IMG_7286.jpg"
+      "/IMG_7286.jpg"
     ],
   },
   {
@@ -42,7 +42,7 @@ const buses = [
     size: "Length - 16cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "IMG_7298.jpg"
+      "/IMG_7298.jpg"
     ],
   },
   {
@@ -50,7 +50,7 @@ const buses = [
     size: "Length - 16cm, Height - 7cm, Width - 6cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "IMG_7280.jpg"
+      "/IMG_7280.jpg"
     ],
   },
   {
@@ -58,7 +58,7 @@ const buses = [
     size: "Length - 15cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "IMG_7303.jpg"
+      "/IMG_7303.jpg"
     ],
   },
 ];
@@ -81,7 +81,7 @@ function Buses() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('bg1.jpg')" }}
+        style={{ backgroundImage: "url('/bg1.jpg')" }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">BUSES AND TRUCK</h1>
       </div>

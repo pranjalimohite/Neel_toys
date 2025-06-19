@@ -7,9 +7,9 @@ const bikes = [
     size: "Length - 13cm, Height - 10cm, Width - 3.5cm",
     colors: ["red", "black", "yellow", "white", "SteelBlue"],
     images: [
-      "IMG_7354.jpg",
-      "IMG_7351.jpg",
-      "IMG_7352.jpg"
+      "/IMG_7354.jpg",
+      "/IMG_7351.jpg",
+      "/IMG_7352.jpg"
     ],
   },
   // ...other bikes
@@ -32,7 +32,7 @@ function Bikes() {
   return (
     <>
       <div className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('bg1.jpg')" }}>
+        style={{ backgroundImage: "url('/bg1.jpg')" }}>
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">BIKES</h1>
       </div>
       <div className="min-h-screen bg-gray-50 flex items-center justify-center px-2 sm:px-4 py-8 sm:py-10">

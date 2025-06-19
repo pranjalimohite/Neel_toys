@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 const slides = [
-  { type: "image", src: "n.jpeg", fit: "fill" },
-  { type: "image", src: "front1.jpeg", fit: "fill" },
-  { type: "video", src: "video1.mp4", fit: "fill" }, 
+  { type: "image", src: "/n.jpeg", fit: "fill" },
+  { type: "image", src: "/front1.jpeg", fit: "fill" },
+  { type: "video", src: "/video1.mp4", fit: "fill" }, 
   
 ];
 

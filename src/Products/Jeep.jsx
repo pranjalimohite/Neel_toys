@@ -12,7 +12,7 @@ const jeeps = [
     size: "Length - 13cm, Height - 5.5cm, Width - 3.5cm",
     colors: ["Red", "#C0C0C0", "black", "white", "green"],
     images: [
-      "IMG_7344.jpg",
+      "/IMG_7344.jpg",
       Thar1,
       Thar2,
       Thar3
@@ -23,7 +23,7 @@ const jeeps = [
     size: "Length - 15cm, Height - 9cm, Width - 5cm",
     colors: ["SteelBlue", "silver", "white", "black", "red", "green"],
     images: [
-      "IMG_7321.jpg",
+      "/IMG_7321.jpg",
       Van1,
       Van2,
       Van3,
@@ -49,7 +49,7 @@ function Jeep() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('bg1.jpg')" }}
+        style={{ backgroundImage: "url('/bg1.jpg')" }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">THAAR AND VAN</h1>
       </div>
