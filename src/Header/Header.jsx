@@ -4,19 +4,17 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Close menu on navigation
   const handleNavClick = () => setMenuOpen(false);
 
   return (
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 sm:py-8">
         <div className="flex justify-between items-center">
-          {/* Logo/Brand Name */}
-          <div className="text-2xl font-bold text-gray-800 flex flex-col items-start">
-  <img src="/Logo.png" alt="NeelToysLogo" className="h-15 w-auto" />
-  
-</div>
-         
+          {/* Logo/Brand Name and GST */}
+          <div className="flex flex-col items-start">
+            <img src="Logo.png" alt="NeelToysLogo" className="h-15 w-auto" />
+            <span className="text-lg text-gray-800 mt-1">GST No: 26AMIPT0097J1ZL</span>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
@@ -25,7 +23,7 @@ const Header = () => {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black" : "text-gray-500"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-black  lg:p-0`
                   }>
                   Home
                 </NavLink>
@@ -34,7 +32,7 @@ const Header = () => {
                 <NavLink
                   to="/Aboutus"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black" : "text-gray-500"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-black  lg:p-0`
                   }>
                   AboutUs
                 </NavLink>
@@ -43,7 +41,7 @@ const Header = () => {
                 <NavLink
                   to="/Products"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black " : "text-gray-500"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-black  lg:p-0`
                   }>
                   Products
                 </NavLink>
@@ -52,7 +50,7 @@ const Header = () => {
                 <NavLink
                   to="/Contactus"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black " : "text-gray-500"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-black  lg:p-0`
                   }>
                   ContactUs
                 </NavLink>
@@ -61,7 +59,7 @@ const Header = () => {
                 <NavLink
                   to="/buyingchannels"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black " : "text-gray-500"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-black lg:p-0`
                   }>
                   BuyingChannels
                 </NavLink>

@@ -1,4 +1,8 @@
 import React from 'react';
+import aboutus from "../assets/Images/about_us.jpg"
+import Display from "../assets/Images/DisplayP.jpeg"
+import trade from "../assets/Images/TradeMark.png"
+import bg3 from "../assets/Images/bg3.jpg"
 
 function AboutUs() {
   return (
@@ -7,7 +11,7 @@ function AboutUs() {
 
       <>
       <div>
-        <img className="h-[400px] w-full" src="/about_us.jpg" alt="AboutUs" />
+        <img className="h-[400px] w-full" src={aboutus} alt="AboutUs" />
       </div>
       <section className="py-12 px-2 sm:px-6 lg:px-8 bg-amber-50 animate-fadeIn">
         <div className="max-w-6xl mx-auto">
@@ -53,7 +57,7 @@ function AboutUs() {
 
       <div className="bg-white p-6 sm:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow flex items-center justify-center animate-fadeIn delay-300">
         <img
-          src="/DisplayP.jpeg"
+          src={Display}
           alt="Display Photo"
           className="w-40 h-40 sm:w-56 sm:h-56 object-cover mx-auto rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
         />
@@ -73,7 +77,7 @@ function AboutUs() {
       {/* Certified By Section */}
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center animate-fadeIn"
-        style={{ backgroundImage: "url('bg3.jpg')" }}
+        style={{ backgroundImage: `url(${bg3})` }}
       >
         <h1 className="text-gray-800 text-2xl sm:text-5xl font-bold drop-shadow-lg">Certified By</h1>
       </div>
@@ -81,7 +85,7 @@ function AboutUs() {
       <div className="w-full flex flex-col items-center gap-6 my-6 sm:my-8 animate-fadeIn delay-200">
         <div className="bg-gray-100 border border-gray-300 rounded-xl p-6 sm:p-8 flex justify-center items-center">
           <img
-            src="/TradeMark.png"
+            src={trade}
             alt="Trademark"
             className="h-24 w-40 sm:h-40 sm:w-64 object-contain"
           />

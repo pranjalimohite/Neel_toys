@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
+import slide1 from "../assets/Images/n.jpeg"
+import slide2 from "../assets/Images/front1.jpeg"
+import slide3 from "../assets/Images/video1.mp4"
 
 const slides = [
-  { type: "image", src: "/n.jpeg", fit: "fill" },
-  { type: "image", src: "/front1.jpeg", fit: "fill" },
-  { type: "video", src: "/video1.mp4", fit: "fill" }, 
+  { type: "image", src: slide1, fit: "fill" },
+  { type: "image", src: slide2, fit: "fill" },
+  { type: "video", src: slide3, fit: "fill" }, 
   
 ];
 

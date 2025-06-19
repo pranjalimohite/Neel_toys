@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dzireCar from "../assets/Images/IMG_0224.jpg";
+import dzireCar from "../assets/Images/IMG_0240.jpg";
 import OlaD from "../assets/Images/OlaD.jpeg";
 import AmbI from "../assets/Images/AmbI.jpeg";
 import OlaI from "../assets/Images/OlaI.jpeg";
@@ -14,6 +14,10 @@ import D3 from "../assets/Images/IMG_0248.jpg";
 import I1 from "../assets/Images/IMG_0252.jpg";
 import IT1 from "../assets/Images/IMG_0269.jpg";
 import DT1 from "../assets/Images/IMG_0271.jpg";
+import D19 from "../assets/Images/IMG_0245.jpg"
+import D20 from "../assets/Images/IMG_8428.jpg"
+import bg1 from "../assets/Images/bg1.jpg"
+
 
 const cars = [
   {
@@ -21,7 +25,7 @@ const cars = [
     size: "Length - 14.5cm, Height - 7cm, Width - 6.5cm",
     colors: ["Red", "golden", "silver", "black", "white", "yellow"],
     images: [
-      "/IMG_0245.jpg",
+      D19,
       I1
     ],
   },
@@ -111,7 +115,7 @@ const cars = [
     size: "6 ",
     colors: ["silver", "golden", "white", "grey", "ivory"],
     images: [
-      "/IMG_8428.jpg",
+      D20,
       
     ],
   }
@@ -135,7 +139,7 @@ function Cars() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('/bg1.jpg')" }}
+        style={{ backgroundImage: `url(${bg1})` }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">CARS</h1>
       </div>

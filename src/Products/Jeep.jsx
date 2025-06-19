@@ -5,14 +5,16 @@ import Van3 from "../assets/Images/IMG_7320.jpg";
 import Thar1 from "../assets/Images/IMG_7331.jpg";
 import Thar2 from "../assets/Images/IMG_7339.jpg";
 import Thar3 from "../assets/Images/IMG_7343.jpg";
-
+import Thar4 from "../assets/Images/IMG_7344.jpg";
+import Van4 from "../assets/Images/IMG_7321.jpg";
+import bg1 from "../assets/Images/bg1.jpg"
 const jeeps = [
   {
     name: "Thaar",
     size: "Length - 13cm, Height - 5.5cm, Width - 3.5cm",
     colors: ["Red", "#C0C0C0", "black", "white", "green"],
     images: [
-      "/IMG_7344.jpg",
+      Thar4,
       Thar1,
       Thar2,
       Thar3
@@ -23,7 +25,7 @@ const jeeps = [
     size: "Length - 15cm, Height - 9cm, Width - 5cm",
     colors: ["SteelBlue", "silver", "white", "black", "red", "green"],
     images: [
-      "/IMG_7321.jpg",
+      Van4,
       Van1,
       Van2,
       Van3,
@@ -49,7 +51,7 @@ function Jeep() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('/bg1.jpg')" }}
+        style={{ backgroundImage: `url(${bg1})` }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">THAAR AND VAN</h1>
       </div>

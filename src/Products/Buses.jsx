@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import Bus1 from "../assets/Images/IMG_7325.jpg";
 import Bus2 from "../assets/Images/IMG_7326.jpg";
+import Bus3 from "../assets/Images/IMG_7330.jpg"
+import goodCarrier from "../assets/Images/IMG_7310.jpg"
+import garbageTruck from "../assets/Images/IMG_7279.jpg"
+import oliTanker from "../assets/Images/IMG_7286.jpg"
+import waterTanker from "../assets/Images/IMG_7298.jpg"
+import milkVan from "../assets/Images/IMG_7280.jpg"
+import dumper from "../assets/Images/IMG_7303.jpg"
+import bg1 from "../assets/Images/bg1.jpg"
 
 const buses = [
   {
@@ -8,7 +16,7 @@ const buses = [
     size: "Length - 13cm, Height - 5.5cm, Width - 3.5cm",
     colors: ["Red"],
     images: [
-      "/IMG_7330.jpg",
+      Bus3,
       Bus1,
       Bus2
     ],
@@ -18,7 +26,7 @@ const buses = [
     size: "Length - 15cm, Height - 8cm, Width - 6cm",
     colors: ["Blue", "brown", "blue", "white", "orange"],
     images: [
-      "/IMG_7310.jpg"
+      goodCarrier
     ],
   },
   {
@@ -26,7 +34,7 @@ const buses = [
     size: "Length - 15cm, Height - 7cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "/IMG_7279.jpg"
+      garbageTruck
     ],
   },
   {
@@ -34,7 +42,7 @@ const buses = [
     size: "Length - 16cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "/IMG_7286.jpg"
+      oliTanker
     ],
   },
   {
@@ -42,7 +50,7 @@ const buses = [
     size: "Length - 16cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "/IMG_7298.jpg"
+      waterTanker
     ],
   },
   {
@@ -50,7 +58,7 @@ const buses = [
     size: "Length - 16cm, Height - 7cm, Width - 6cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "/IMG_7280.jpg"
+      milkVan
     ],
   },
   {
@@ -58,7 +66,7 @@ const buses = [
     size: "Length - 15cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      "/IMG_7303.jpg"
+      dumper
     ],
   },
 ];
@@ -81,7 +89,7 @@ function Buses() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('/bg1.jpg')" }}
+        style={{ backgroundImage: `url(${bg1})` }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">BUSES AND TRUCK</h1>
       </div>

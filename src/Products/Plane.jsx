@@ -6,6 +6,10 @@ import JETD2 from "../assets/Images/IMG_7362.jpg";
 import F161 from "../assets/Images/IMG_7366.jpg";
 import F162 from "../assets/Images/IMG_7367.jpg";
 import F163 from "../assets/Images/IMG_7371.jpg";
+import plane2 from "../assets/Images/IMG_7355.jpg";
+import plane3 from "../assets/Images/IMG_7364.jpg";
+import plane4 from "../assets/Images/IMG_7370.jpg";
+import bg1 from "../assets/Images/bg1.jpg"
 
 const planes = [
   {
@@ -13,7 +17,7 @@ const planes = [
     size: "Length - 19cm, Height - 4cm, Width - 17cm",
     colors: ["Red", "Blue", "ivory", "white", "grey"],
     images: [
-      "/IMG_7355.jpg",
+      plane2,
       JETR1,
       JETR2,
     ],
@@ -23,7 +27,7 @@ const planes = [
     size: "Length - 19cm, Height - 4cm, Width - 17cm",
     colors: ["Blue", "orange", "yellow", "#C11C84"],
     images: [
-      "/IMG_7364.jpg",
+      plane3,
       JETD2,
       JETD1
     ],
@@ -33,7 +37,7 @@ const planes = [
     size: "Length -  21cm, Height - 3cm, Width - 18cm",
     colors: ["Green", "white", "ivory", "grey", "black"],
     images: [
-      "/IMG_7370.jpg",
+      plane4,
       F161,
       F162,
       F163,
@@ -59,7 +63,7 @@ function Plane() {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('/bg1.jpg')" }}
+        style={{ backgroundImage: `url(${bg1})` }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">AEROPLANE</h1>
       </div>

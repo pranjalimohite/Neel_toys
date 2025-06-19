@@ -1,37 +1,44 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import D2 from "../assets/Images/IMG_0240.jpg";
+import bus1 from "../assets/Images/IMG_7310.jpg"
+import bike1 from "../assets/Images/IMG_7354.jpg"
+import jeep1 from "../assets/Images/IMG_7344.jpg"
+import bg1 from "../assets/Images/bg1.jpg"
+
+import plane1 from "../assets/Images/IMG_7372.jpg"
 
 const productCards = [
   {
-    img: "/IMG_0240.jpg",
+    img: D2,
     alt: "Cars & SUVs | MUVs",
     title: "Cars & SUVs | MUVs",
     link: "/cars",
     delay: "0s"
   },
   {
-    img: "/IMG_7324.jpg",
+    img: bus1,
     alt: "Trucks and Buses",
     title: "Trucks and Buses",
     link: "/Buses",
     delay: "0.1s"
   },
   {
-    img: "/IMG_7354.jpg",
+    img: bike1,
     alt: "Bikes",
     title: "Bikes",
     link: "/Bikes",
     delay: "0.2s"
   },
   {
-    img: "/IMG_7372.jpg",
+    img: plane1,
     alt: "Aeroplanes",
     title: "Aeroplanes",
     link: "/Plane",
     delay: "0.3s"
   },
   {
-    img: "/IMG_7321.jpg",
+    img: jeep1,
     alt: "Jeeps & Van",
     title: "Jeeps & Van",
     link: "/Jeep",
@@ -44,7 +51,7 @@ const Products = () => {
     <>
       <div
         className="w-full h-[140px] sm:h-[200px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('bg1.jpg')" }}
+        style={{ backgroundImage: `url(${bg1})` }}
       >
         <h1 className="text-gray-800 text-3xl sm:text-5xl font-bold drop-shadow-lg animate-slideDown">Our Collections</h1>
       </div>
