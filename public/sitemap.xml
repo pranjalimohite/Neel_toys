@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.neeltoy.com/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/Aboutus</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/Products</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/Contactus</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/buyingchannels</loc>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/cars</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/Jeep</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/Plane</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/Buses</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.neeltoy.com/Bikes</loc>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
