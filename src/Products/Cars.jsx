@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dzireCar from "../assets/Images/IMG_0240.webp";
+
 import OlaD from "../assets/Images/OlaD.webp";
 import AmbI from "../assets/Images/AmbI.webp";
 import OlaI from "../assets/Images/OlaI.webp";
@@ -9,24 +9,34 @@ import TaxiI from "../assets/Images/TaxiI.webp";
 import UberD from "../assets/Images/UberD.webp";
 import UberI from "../assets/Images/UberI.webp";
 import D1 from "../assets/Images/IMG_0226.webp";
+import D4 from "../assets/Images/IMG_0224.webp";
+import D5 from "../assets/Images/IMG_0225.webp";
+import D6 from "../assets/Images/IMG_0227.webp";
 import D2 from "../assets/Images/IMG_0240.webp";
+import D18 from "../assets/Images/IMG_0244.webp";
 import D3 from "../assets/Images/IMG_0248.webp";
 import I1 from "../assets/Images/IMG_0252.webp";
 import IT1 from "../assets/Images/IMG_0269.webp";
 import DT1 from "../assets/Images/IMG_0271.webp";
-import D19 from "../assets/Images/IMG_0245.webp"
-import D20 from "../assets/Images/IMG_8428.webp"
+import D19 from "../assets/Images/IMG_0245.webp";
+import D20 from "../assets/Images/IMG_8428.webp";
+import new1 from "../assets/Images/IMG_5534.webp";
+import new2 from "../assets/Images/IMG_5531.webp";
+import new3 from "../assets/Images/IMG_5532.webp";
+import new4 from "../assets/Images/IMG_5533.webp";
 import bg1 from "../assets/Images/bg1.webp"
 
 
 const cars = [
   {
-    name: "INNOVAA CAR",
+    name: "INNOVAA DLX",
     size: "Length - 14.5cm, Height - 7cm, Width - 6.5cm",
     colors: ["Red", "golden", "silver", "black", "white", "yellow"],
     images: [
       D19,
-      I1
+      I1,
+      D3,
+      D18
     ],
   },
   {
@@ -75,12 +85,37 @@ const cars = [
     ],
   },
   {
-    name: "DZIRE CAR",
+    name: "INNOVAA FIRE RESCUE",
+    size: "Length - 14.5cm, Height - 7cm, Width - 6.5cm",
+    colors: ["white"],
+    images: [
+      new1,
+      new2
+      
+    ],
+  },
+  {
+    name: "INNOVAA HIGHWAY PATROL ",
+    size: "Length - 14.5cm, Height - 7cm, Width - 6.5cm",
+    colors: ["white"],
+    images: [
+      new3,
+      new4
+      
+    ],
+  },
+  {
+    name: "DZIRE DLX",
     size: "Length - 14.8cm, Height - 7cm, Width - 7cm",
     colors: ["Red", "brown", "silver", "#E6BE8A", "white", "green"],
     images: [
-      dzireCar,
-      D1
+     
+      D1,
+      D4,
+      D5,
+      D6,
+      D2
+
     ],
   },
   {

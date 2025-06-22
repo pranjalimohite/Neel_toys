@@ -3,11 +3,21 @@ import Bus1 from "../assets/Images/IMG_7325.webp";
 import Bus2 from "../assets/Images/IMG_7326.webp";
 import Bus3 from "../assets/Images/IMG_7330.webp"
 import goodCarrier from "../assets/Images/IMG_7310.webp"
+import goodCarrier1 from "../assets/Images/IMG_7306.webp"
+import goodCarrier2 from "../assets/Images/IMG_7307.webp"
 import garbageTruck from "../assets/Images/IMG_7279.webp"
+import garbageTruck1 from "../assets/Images/IMG_7277.webp"
+import garbageTruck2 from "../assets/Images/IMG_7278.webp"
 import oliTanker from "../assets/Images/IMG_7286.webp"
+import oliTanker1 from "../assets/Images/IMG_7285.webp"
 import waterTanker from "../assets/Images/IMG_7298.webp"
+import waterTanker1 from "../assets/Images/IMG_7296.webp"
+import waterTanker2 from "../assets/Images/IMG_7299.webp"
 import milkVan from "../assets/Images/IMG_7280.webp"
+import milkVan1 from "../assets/Images/IMG_7283.webp"
 import dumper from "../assets/Images/IMG_7303.webp"
+import dumper1 from "../assets/Images/IMG_7302.webp"
+import dumper2 from "../assets/Images/IMG_7305.webp"
 import bg1 from "../assets/Images/bg1.webp"
 
 const buses = [
@@ -26,7 +36,9 @@ const buses = [
     size: "Length - 15cm, Height - 8cm, Width - 6cm",
     colors: ["brown", "blue", "white", "orange"],
     images: [
-      goodCarrier
+      goodCarrier,
+      goodCarrier1,
+      goodCarrier2
     ],
   },
   {
@@ -34,7 +46,9 @@ const buses = [
     size: "Length - 15cm, Height - 7cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      garbageTruck
+      garbageTruck,
+      garbageTruck1,
+      garbageTruck2
     ],
   },
   {
@@ -42,7 +56,8 @@ const buses = [
     size: "Length - 16cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      oliTanker
+      oliTanker,
+      oliTanker1
     ],
   },
   {
@@ -50,7 +65,9 @@ const buses = [
     size: "Length - 16cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      waterTanker
+      waterTanker,
+      waterTanker1,
+      waterTanker2
     ],
   },
   {
@@ -58,7 +75,8 @@ const buses = [
     size: "Length - 16cm, Height - 7cm, Width - 6cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      milkVan
+      milkVan,
+      milkVan1
     ],
   },
   {
@@ -66,7 +84,9 @@ const buses = [
     size: "Length - 15cm, Height - 8cm, Width - 6.5cm ",
     colors: ["ivory", "brown", "blue", "white", "orange"],
     images: [
-      dumper
+      dumper,
+      dumper1,
+      dumper2
     ],
   },
 ];

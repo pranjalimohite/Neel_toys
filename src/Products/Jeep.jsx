@@ -3,10 +3,19 @@ import Van1 from "../assets/Images/IMG_7314.webp";
 import Van2 from "../assets/Images/IMG_7316.webp";
 import Van3 from "../assets/Images/IMG_7320.webp";
 import Thar1 from "../assets/Images/IMG_7331.webp";
-import Thar2 from "../assets/Images/IMG_7339.webp";
+import Thar2 from "../assets/Images/IMG_6920.webp";
 import Thar3 from "../assets/Images/IMG_7343.webp";
 import Thar4 from "../assets/Images/IMG_7344.webp";
 import Van4 from "../assets/Images/IMG_7321.webp";
+import Thar5 from "../assets/Images/IMG_7333.webp";
+import Van5 from "../assets/Images/IMG_7312.webp";
+import Van8 from "../assets/Images/IMG_7315.webp";
+import Van6 from "../assets/Images/IMG_7317.webp";
+import Van7 from "../assets/Images/IMG_7319.webp";
+import Van9 from "../assets/Images/IMG_7322.webp";
+
+
+
 import bg1 from "../assets/Images/bg1.webp"
 const jeeps = [
   {
@@ -17,18 +26,43 @@ const jeeps = [
       Thar4,
       Thar1,
       Thar2,
-      Thar3
+      Thar3,
+      Thar5
     ],
   },
+  
   {
     name: "Ecco Dlx",
     size: "Length - 15cm, Height - 9cm, Width - 5cm",
     colors: ["SteelBlue", "silver", "white", "black", "red", "green"],
     images: [
       Van4,
+      Van7,
+      Van9,
+      Van3
+    ],
+  },
+   {
+    name: "Ecco School Van",
+    size: "Length - 15cm, Height - 9cm, Width - 5cm",
+    colors: ["SteelBlue", "silver", "white", "black", "red", "green"],
+    images: [
       Van1,
+      Van5
+
+      
+    ],
+  },
+  {
+    name: "Ecco Jungle Safari",
+    size: "Length - 15cm, Height - 9cm, Width - 5cm",
+    colors: ["SteelBlue", "silver", "white", "black", "red", "green"],
+    images: [
       Van2,
-      Van3,
+      Van8,
+      Van6
+      
+      
     ],
   },
 ];

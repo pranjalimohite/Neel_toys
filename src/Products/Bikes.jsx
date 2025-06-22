@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import bike2 from "../assets/Images/IMG_7351.webp"
 import bike3 from "../assets/Images/IMG_7352.webp"
 import bike1 from "../assets/Images/IMG_7354.webp"
+import bike4 from "../assets/Images/IMG_7350.webp"
+import bike5 from "../assets/Images/IMG_7347.webp"
+import bike6 from "../assets/Images/IMG_7349.webp"
 import bg1 from "../assets/Images/bg1.webp"
 
 const bikes = [
@@ -14,7 +17,11 @@ const bikes = [
     images: [
       bike1,
       bike2,
-      bike3
+      bike3,
+      bike4,
+      bike5,
+      bike6
+
       
     ],
   },
