@@ -12,9 +12,9 @@ const Footer = () => {
             <h1 className="text-2xl sm:text-3xl font-bold mb-3">NEELTOYS</h1>
             <h2 className="text-lg sm:text-xl text-gray-300 mb-3">ADDRESS</h2>
             <p className="text-gray-400 mb-4 text-sm sm:text-base">
-              102, gov estate, area, Masat,
+              Plot no 102, Government industrial estate, Masat,Silvassa.
               <br />
-              Dadra and Nagar Haveli and Daman and Diu 396240
+              Dadra and Nagar Haveli and Daman and Diu 396240.
             </p><br />
             <h3>Ketki Totre - (CEO)</h3>
           </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.instagram.com/neeltoys/"
+                  href="https://www.instagram.com/neel.toy?igsh=eTRibWVsODAyODMy"
                   className="hover:text-white transition-colors text-sm sm:text-base"
                 >
                   Instagram

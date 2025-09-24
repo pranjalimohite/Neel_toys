@@ -13,7 +13,7 @@ import bg1 from "../assets/Images/bg1.webp"
 
 const planes = [
   {
-    name: "JET - 474 REGULAR",
+    name: "JET - 747 REGULAR",
     size: "Length - 19cm, Height - 4cm, Width - 17cm",
     colors: ["Red", "Blue", "ivory", "white", "grey"],
     images: [
@@ -23,7 +23,7 @@ const planes = [
     ],
   },
   {
-    name: "JET - 474 DLX",
+    name: "JET - 747 DLX",
     size: "Length - 19cm, Height - 4cm, Width - 17cm",
     colors: ["Blue", "orange", "yellow", "#C11C84"],
     images: [
